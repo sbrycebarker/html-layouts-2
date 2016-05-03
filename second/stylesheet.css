@@ -10,43 +10,84 @@ html, body {
     margin-left: 2%;
     margin-right: 2%;
 }
+article {
+  position: absolute;
+  margin: 2%;
+  height: 40%;
+  width: 95%;
+  overflow: hidden;
+}
 
 .top {
   margin: 5%;
   background-color: #ffffff;
-  height: 33%;
+  height: 30%;
   width: 88%;
-  border: solid black 1px;
+  position: relative;
+  margin-bottom: 1%;
 }
 
 .click {
+  display: inline-block;
+  position: static;
+  padding: 2%;
+  margin-top: 25%;
+  margin-bottom: 2%;
+
+}
+.red {
   background-color: red;
   width: 10%;
-  height: 10%;
-  margin: 1%;
-  padding: 1%;
+  height: 5%;
   text-align: center;
+  margin-bottom: 1%;
 }
 
-.clicked {
+.blue {
   background-color: blue;
-  height: 10%;
+  height: 5%;
   width: 10%;
   text-align: center;
-  margin: 1%;
-  padding: 1%;
+  margin-left: -1%;
 }
 
 .bottom {
-  height: 50%;
+  height: 55%;
   width: 88%;
   background-color: #ffffff;
   margin: 5%;
+  position: absolute;
+  bottom: 20;
+}
+
+.batman {
+  position: relative;
+  height: 50%;
+  width: 90%;
+  margin: 5%;
+  margin-top: 8%
+}
+
+.p {
+  margin: 5%;
+  position: relative;
+  margin-top: -2%;
 }
 
 .footer {
-  height: 10%;
-  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: -0;
+  left: 0;
+  padding: 5;
   background-color: grey;
-  margin-top: 5%;
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  float: right;
+  margin: 1%;
+  margin-right: 3%;
+  text-decoration: none;
 }
